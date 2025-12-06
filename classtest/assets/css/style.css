@@ -20,17 +20,23 @@ table ,tr ,th ,td {
     background-color: red;
  }
 #mahbub {
-    height: 10vh;
+    
+    height: 100vh;
+    width: 10%;
+    float: left;
 }
-#mahbub nav ul ,li {
+ ul ,li {
     list-style: none;
 }
  
  #div{
-    height: 90vh ;
+    height: 100vh;
+    width: 90%;
+    float: right;
  }
 
  #index{
-    height: 90vh;
+    height: 100vh;
+    width: 90%;
  }
  
