@@ -42,6 +42,7 @@ button {
   cursor: pointer;
 }
 
-#abc:hover {
+  .reset1:hover{
   background-color: #fa0707;
 }
+

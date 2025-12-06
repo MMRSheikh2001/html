@@ -1,0 +1,36 @@
+table {
+    width: 80%;
+}
+
+table ,tr ,th ,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+ }
+ form {
+    background-color: azure;
+
+ }
+ 
+ .a:hover{
+    background-color: green;
+
+ }
+ .b:hover {
+    background-color: red;
+ }
+#mahbub {
+    height: 10vh;
+}
+#mahbub nav ul ,li {
+    list-style: none;
+}
+ 
+ #div{
+    height: 90vh ;
+ }
+
+ #index{
+    height: 90vh;
+ }
+ 
