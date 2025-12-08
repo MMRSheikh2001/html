@@ -1,5 +1,6 @@
 table {
     width: 80%;
+    margin: auto;
 }
 
 table ,tr ,th ,td {
