@@ -1,0 +1,41 @@
+
+table{
+    width: 80%;
+    margin: 20%;
+}
+
+
+
+table,tr,th,td{
+    border: 1px solid rosybrown;
+    border-collapse: collapse;
+}
+#rate {
+    background-color: rgba(0, 153, 255, 0.493);
+}
+#submit:hover{
+    background-color: green;
+}
+#reset:hover{
+    background-color: red;
+}
+#upnav{
+    background-color: azure;
+    width: 10%;
+    height: 100vh;
+    float: left;
+}
+#downnav{
+    width: 90%;
+    height: 100vh;
+    float: right;
+}
+#iframe{
+    width: 90%;
+    height: 100vh;
+
+}
+#upnav ul,li {
+    list-style: none;
+    text-decoration: none;
+}
