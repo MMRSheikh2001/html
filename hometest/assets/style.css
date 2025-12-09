@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 80%;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+#a{
+    background-color: black;
+}
+#b{
+    background-color: yellow;
+}
+.t{
+    background-color: red;
+}
+.ul{
+    list-style-type: square;
+}
+#s:hover{
+    background-color: green;
+}
+#r:hover{
+    background-color: red;
+}
