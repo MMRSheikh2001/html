@@ -269,18 +269,20 @@
             <div class="col-md-8 bg-light p-4 rounded">
                 <h4 style="color: blue;">Notice</h4>
                 <!-- Simple Button Group -->
-                <div class="btn-group mb-4" role="group">
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
-                    <label class="btn btn-outline-primary" for="btnradio1" data-bs-toggle="collapse"
-                        data-bs-target="#noticeCollapse">Notice</label>
+                <div class="d-flex gap-2">
 
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
-                    <label class="btn btn-outline-primary" for="btnradio2" data-bs-toggle="collapse"
-                        data-bs-target="#nocCollapse">No Objection Certificate</label>
+                    <div class="btn btn-outline-primary rounded-pill" onclick="noticeinput()">
+                        Notice
+                    </div>
 
-                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
-                    <label class="btn btn-outline-primary" for="btnradio3" data-bs-toggle="collapse"
-                        data-bs-target="#rCollapse">Report</label>
+                    <div class="btn btn-outline-primary rounded-pill" onclick="nocinput()">
+                        No Objection Certificate
+                    </div>
+
+                    <div class="btn btn-outline-primary rounded-pill" onclick="rinput()">
+                        Report
+                    </div>
+
                 </div>
 
                 <!-- Collapsible Content -->
@@ -297,22 +299,77 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td></td>
-                                <td></td>
+                                <td>একাদশ শ্রেণি (শিক্ষাবর্ষ ২০২৫-২৬) ভর্তিকৃত শিক্ষার্থীদের জানানো যাচ্ছে যে, যারা এখনও
+                                    পর্যন্ত বায়োমেট্রিক অ্যাটেনডেন্স (ফিঙ্গারপ্রিন্ট) প্রদান করেননি তাদেরকে নিম্নলিখিত
+                                    তারিখসমূহে গ্রহণ করা হবে। সকলকে নির্ধারিত তারিখে বায়োমেট্রিক অ্যাটেনডেন্স প্রদান
+                                    করার জন্য নির্দেশ প্রদান করা হলো।</td>
+                                <td>০৯/১০/২০২৫</td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td></td>
-                                <td></td>
+                                <td>দ্বাদশ শ্রেণির সিটি- ১ পরীক্ষার ফলাফল প্রকাশ</td>
+                                <td>২৫/০৯/২০২৫</td>
                                 <td></td>
                             </tr>
-                           
+                            <tr>
+                                <td>3</td>
+                                <td>শ্রী শ্রী দুর্গা পূজা, বিজয়া দশমী, ফাতেহা-ই-ইয়াজদাহাম, প্রবারণা পূর্ণিমা ও শ্রী
+                                    শ্রী লক্ষ্মী পূজা উপলক্ষে</td>
+                                <td>২৫/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>বায়োমেট্রিক অ্যাটেনডেন্স (ফিঙ্গারপ্রিন্ট) নিম্নলিখিত তারিখসমূহে গ্রহণ করা হবে…..
+                                </td>
+                                <td>২১/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Admission 2025-26 New Deadline…</td>
+                                <td>২১/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>অত্র কলেজের একাদশ শ্রেণিতে (শিক্ষাবর্ষ- ২০২৫-২৬) ভর্তিকৃত ছাত্র-ছাত্রীদের জানানো
+                                    যাচ্ছে যে, আগামী ১৫/০৯/২০২৫ সোমবার নি¤œলিখিত সময় অনুযায়ী ‘ওরিয়েন্টেশন ক্লাস’
+                                    অনুষ্ঠিত হবে</td>
+                                <td>১৯/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>২০২৫ একাদশ শ্রেণির ভর্তি সংক্রান্ত সময় বৃদ্ধি…</td>
+                                <td>১০/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>একাদশ শ্রেণীর ভর্তি সংক্রান্ত নোটিশ (২০২৫-২৬)</td>
+                                <td>08/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Admission notice (2025-26)……</td>
+                                <td>০১/০৯/২০২৫</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>Important Notice</td>
+                                <td>২৭/০৮/২০২৫</td>
+                                <td></td>
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>
 
-                <div class="collapse" id="nocCollapse">
+                <div class="collapse" id="nocCollapse" style="display: none;">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
@@ -335,12 +392,12 @@
                                 <td>১৬/০৬/২০২৫</td>
                                 <td></td>
                             </tr>
-                           
+
                         </tbody>
                     </table>
 
                 </div>
-                <div class="collapse" id="rCollapse">
+                <div class="collapse" id="rCollapse" style="display: none;">
                     <table class="table table-bordered">
                         <thead>
                             <tr>
@@ -465,7 +522,26 @@
 
 
 
+    <script>
+        function noticeinput() {
 
+            noticeCollapse.style.display = "block";
+            nocCollapse.style.display = "none";
+            rCollapse.style.display = "none";
+        }
+        function nocinput() {
+
+            nocCollapse.style.display = "block";
+            noticeCollapse.style.display = "none";
+            rCollapse.style.display = "none";
+        }
+        function rinput() {
+
+            rCollapse.style.display = "block";
+            noticeCollapse.style.display = "none";
+            nocCollapse.style.display = "none";
+        }
+    </script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
