@@ -139,9 +139,10 @@
 .bg {
     height: 20vh;
     
-    background-image: url(mgcSignboard.jpg);
+  
     display: flex;
     justify-content: center;
     align-items: center;
+    color: yellow;
     
 }
